@@ -22,10 +22,12 @@ from rdkit.Chem import Descriptors, AllChem, MACCSkeys
 from rdkit.ML.Descriptors import MoleculeDescriptors
 
 # ---------------------- CONFIG (edit these paths to match your environment) ----------------------
-MODEL_PATH = r"D:\Research\AntiDiaNET\Model\rf_model.pkl"
-SCALER_PATH = r"D:\Research\AntiDiaNET\Model\scaler_rf.pkl"
-SELECTED_FEATURES_PKL = r"D:\Research\AntiDiaNET\Model\selected_features.pkl"
-MEDIANS_PKL = r"D:\Research\AntiDiaNET\Model\feature_medians.pkl"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+MODEL_PATH = os.path.join(BASE_DIR, "Model", "rf_model.pkl")
+SCALER_PATH = os.path.join(BASE_DIR, "Model", "scaler_rf.pkl")
+SELECTED_FEATURES_PKL = os.path.join(BASE_DIR, "Model", "selected_features.pkl")
+MEDIANS_PKL = os.path.join(BASE_DIR, "Model", "feature_medians.pkl")
 REQUEST_TIMEOUT = 8            # network timeout seconds
 PAUSE_BETWEEN_LOOKUPS = 0.12   # polite pause between external lookups
 MAX_NAME_LEN_FOR_URL = 250
