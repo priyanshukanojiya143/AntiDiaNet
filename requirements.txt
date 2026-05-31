@@ -1,6 +1,4 @@
-beautifulsoup4==4.14.2
 biopython==1.85
-blinker==1.9.0
 bs4==0.0.2
 cachetools==6.2.2
 certifi==2025.8.3
@@ -37,7 +35,6 @@ pip==25.2
 plotly==6.4.0
 protobuf==6.33.1
 PubChemPy==1.0.5
-pyarrow==21.0.0
 pycparser==2.23
 pydeck==0.9.1
 pyparsing==3.2.5
@@ -53,7 +50,6 @@ rpds-py==0.29.0
 scikit-learn==1.7.2
 scipy==1.16.3
 seaborn==0.13.2
-selenium==4.36.0
 six==1.17.0
 slicer==0.0.8
 smmap==5.0.2
@@ -65,7 +61,6 @@ tenacity==9.1.2
 threadpoolctl==3.6.0
 toml==0.10.2
 tornado==6.5.2
-tqdm==4.67.1
 trio==0.31.0
 trio-websocket==0.12.2
 typing_extensions==4.15.0
@@ -75,5 +70,4 @@ watchdog==6.0.0
 webdriver-manager==4.0.2
 websocket-client==1.8.0
 wsproto==1.2.0
-xgboost==2.0.3
 xlsxwriter==3.2.9
