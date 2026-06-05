@@ -52,7 +52,7 @@ def contact_page():
         {
             "img": avatar(img3, "Dr. Rajeev Ranjan"),
             "name": "Dr. Rajeev Ranjan",
-            "role": "Senior Scientist",
+            "role": "Scientist",
             "dept": "",
             "org": "ICAR-IASRI, New Delhi",
             "email": "rajeev.kumar4@icar.gov.in",
